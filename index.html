@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+    <header>
+        <h1>Let's Play Rock Paper Scissors</h1>
+    </header>
+
+
+    <div class="choices">
+        <div id="computer" class="computer">
+            <img src="images/blank.png" height="140" />
+        </div>
+    </div>
+    <div class="score">
+        <div id="computer-label" class="badge">Computer</div>
+        <span id="computer-score">0</span><br />
+        <div id="results" class="result">
+            <p>Results</p>
+        </div>
+        <span id="player-score">0</span>
+        <div id="player-label" class="badge">Player</div>
+    </div>
+
+    <div class="choices">
+        <div id="player" class="player">
+            <img src="images/blank.png" height="140" />
+        </div>
+    </div>
+
+
+    <div id="choose">
+        <p><input type="button" id="reset" value="Reset" onclick="javascript:location.reload()" /></p>
+        <p>Make a move!</p>
+    </div>
+
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.png" height="140" />
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" height="140" />
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/scissors.png" height="140" />
+        </div>
+    </div>
+
+    <script type="text/javascript" src="game.js"></script>
+
+
+
+</body>
+</html>
