@@ -1,2 +1,3 @@
 # Rock-Paper-Scissors
-Rock Paper Scissors in JS
+Rock Paper Scissors game in JS
+Used technologies: HTML, JavaScript, CSS
